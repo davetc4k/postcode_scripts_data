@@ -2,9 +2,10 @@
 A repo of scripts to do ETL operations on postcodes
 
 ## Postcode sector data
-A postcode sector comprises of the first letters / numbers before the space in a postcode e.g. postcode sector in bold text,  **EH8** 9DD,**PE29** 2HW
 
-The data was avalaible for download at https://www.freemaptools.com/download-uk-postcode-lat-lng.htm (it was not uoploaded here)
+A postcode sector comprises of the first letters / number sequence before the space in a postcod, e.g. postcode sector in bold text,  **EH8** 9DD,**PE29** 2HW
+
+The data was avalaible for download at https://www.freemaptools.com/download-uk-postcode-lat-lng.htm (it was not uploaded here)
 
 The center latitude longitude was calculated by taking a simple average of the latitudes or longitudes. 
 
