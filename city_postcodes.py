@@ -9,7 +9,7 @@ table = tables[1]
 
 with open("city_postcodes.csv", "w") as file:
     writer = csv.writer(file)
-    header = ["index", "area", "sector", "city", ""]
+    header = ["index", "area", "sector", "city", "county"]
     writer.writerow(header)
     for index, row in table.iterrows():
 
