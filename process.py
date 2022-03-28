@@ -46,7 +46,7 @@ def process_postcodes(path):
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 CSV_FILE_PATH = os.path.join(ROOT_DIR, "ukpostcodes.csv")
 results = process_postcodes(CSV_FILE_PATH)
-count = 0
+
 with open("postcode_areas_central.txt", "w") as file:
     writer = csv.writer(file)
     header = ["sector", "lat", "lon"]
