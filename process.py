@@ -11,12 +11,12 @@ def average_latlon(list, k):
             lat.append(float(l[0]))
             long.append(float(l[1]))
     if len(lat) > 0 and len(long) > 0:
-        sumlat = sum(lat) / len(lat)
-        sumlon = sum(long) / len(long)
+        avglat = sum(lat) / len(lat)
+        avglon = sum(long) / len(long)
     else:
-        sumlat = None
-        sumlon = None
-    return (sumlat, sumlon)
+        avglat = None
+        avglon = None
+    return (avglat, avglon)
 
 
 def process_postcodes(path):
