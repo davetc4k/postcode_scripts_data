@@ -23,8 +23,8 @@ def process_postcodes(path):
     areas = {}
     centers = {}
     with open(path) as csvfile:
-        spamreader = csv.reader(csvfile, delimiter=",", quotechar="|")
-        for row in spamreader:
+        csvreader = csv.reader(csvfile, delimiter=",", quotechar="|")
+        for row in csvreader:
             split = row[1].split(" ")
             a = split[0]
             if areas.get(a, None) is None:
